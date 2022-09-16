@@ -1,0 +1,63 @@
+body{
+  margin:0
+}
+#nav-section{
+  height:10%;
+  width: 100%;
+  padding:8px;
+  background-color:orange;
+}
+#nav-sub-section{
+  margin: auto;
+  width:96%;
+  border:1px solid white;
+}
+
+
+
+/*
+#nav-logo-title{
+  margin: 10 1%;
+  width:30%;
+  border: 1px solid white;
+  display: inline-block;
+}
+
+#nav-logo-title{
+  margin-top: -15px;
+  margin-left: 15px;
+  width:80px;
+  height:80px;
+  display: inline-block;
+}*/
+
+ul a li{
+  text-decoration:none;
+  margin:0 2%;
+  color:white;
+  font-size:17px;
+  font-family:cambria math;
+}
+
+ul a:hover{
+ background:green;
+ color:white;
+}
+
+ul a{
+  border:2px solid white;
+  padding: 10px;
+  margin-right: 1%;
+}
+
+ul a li{
+  list-style:none;
+  display:inline-block;
+  padding:5px;
+}
+
+.menu{
+  float:right;
+  margin: 1% 1%;
+  width:50%;
+}

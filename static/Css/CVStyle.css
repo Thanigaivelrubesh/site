@@ -1,0 +1,131 @@
+
+hr{
+  border: 1px solid red;
+}
+
+#HeaderName{
+  color: brown
+}
+
+#divHeader{
+  width: 100%;
+  margin: 2% 1%;
+}
+
+.divBtnstyle{
+  display: inline-block;
+  width: 24%;
+  border: 1px solid dodgerblue;
+}
+
+.navItem{
+  text-decoration: none;
+  color: brown;
+}
+
+.navItemHover{
+  text-decoration: none;
+  color: white;
+}
+
+.divText{
+  text-align: center;
+  font-size: 18px;
+  font-family: cambria math;
+  font-weight: bold;
+
+}
+
+.divBtnstyle:hover,.active{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.divSectionStyle{
+    margin: 5%;
+    padding:100px;
+}
+
+.sectionImg{
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 2%;
+}
+
+.sectionText{
+   display: inline-block;
+   text-align: justify;
+   font-family: cambria math;
+   font-size: 20px;
+   width: 70%;
+   line-height: 1.3;
+   padding: 10px;
+   margin: auto;
+   color: #AC4425;
+}
+
+.divSectionEndLine{
+  width: 5%;
+  border:none;
+  border-top: 4px dotted dodgerblue;
+
+  margin: 5% auto;
+}
+
+#TFLogo{
+  display: block;
+  width: 230px;
+  height: 220px;
+  border-radius: 30%;
+  margin: 3% auto;
+}
+
+.divSubHeading{
+  text-align: center;
+  font-family: cambira;
+  font-size: 26px;
+  color: dodgerblue;
+
+}
+
+.subsection{
+  width: 70%;
+  padding : 20px;
+  margin: auto;
+  padding: 100px;
+}
+
+.tableStyle{
+  margin : 2% auto;
+}
+
+.tableStyle,td{
+  border: 1px solid red;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.tableRow{
+  color: blue;
+  font-family: cambria math;
+  font-size: 18px;
+
+}
+
+.contact{
+  margin: 3%;
+  color: red;
+  font-family: cambira math;
+  font-size: 20px;
+  text-align: center;
+}
+.activeLink{
+border:1px solid green;
+border-radius:20px;
+background-color:orange;
+color:#fff;
+padding:10px;
+font-weight:bold
+}
